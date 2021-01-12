@@ -70,9 +70,9 @@ var str = "Hello, playground"
 // left to convert
 1 / 2
 
-// Creates a constant with the value of 17
+// Creates a constant with the value of 33
 // A constant CANNOT be changed once created
-let valueToConvert = 17
+let valueToConvert = 33
 // Create a variable with the value of "valueToConvert"
 // A variable CAN be changed once created
 var decimalValueLeftToConvert = valueToConvert
@@ -99,3 +99,20 @@ while decimalValueLeftToConvert > 0 {
     
 }
 binaryRepresentation
+
+// Functions
+//
+// Functions are a way to group (encapsulate) related behaviour
+// Once some behaviour is inside a function, the complexity is hidden.
+// We can use, or "call", the function whenever we want.
+/*
+ 
+ Basic syntax of a function:
+ 
+ func functionName(parameter, parameter2, ...) -> return type {
+ 
+ }
+ 
+ */
+
+
